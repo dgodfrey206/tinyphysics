@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="build">
+        <df name="CMakeFiles">
+          <df name="2.8.12.2">
+            <df name="CompilerIdC">
+              <in>CMakeCCompilerId.c</in>
+            </df>
+            <df name="CompilerIdCXX">
+              <in>CMakeCXXCompilerId.cpp</in>
+            </df>
+          </df>
+          <df name="CMakeTmp">
+          </df>
+          <df name="main.dir">
+            <df name="src">
+              <df name="cpp">
+              </df>
+            </df>
+          </df>
+          <df name="tinyphysics-geometry.dir">
+            <df name="src">
+              <df name="cpp">
+                <df name="tinyphysics">
+                  <df name="geometry">
+                  </df>
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="tinyphysics-sfml.dir">
+            <df name="src">
+              <df name="cpp">
+                <df name="tinyphysics">
+                  <df name="geometry">
+                  </df>
+                  <df name="sfml">
+                    <df name="demo1">
+                    </df>
+                    <df name="demo2">
+                    </df>
+                    <df name="demo3">
+                    </df>
+                    <df name="demo4">
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="tests">
+          <df name="CMakeFiles">
+            <df name="build_tests.dir">
+            </df>
+            <df name="test.dir">
+            </df>
+            <df name="unittest.dir">
+            </df>
+            <df name="unittest_tinyphysics.dir">
+              <df name="unitary">
+              </df>
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="data">
+        <df name="gimp">
+        </df>
+        <df name="shaders">
+          <in>blur-fragment.glsl</in>
+          <in>passthrough-fragment.glsl</in>
+        </df>
+        <df name="textures">
+        </df>
+      </df>
+      <df name="src">
+        <df name="cpp">
+          <df name="tinyphysics">
+            <df name="geometry">
+              <in>algorithms.cpp</in>
+              <in>algorithms.h</in>
+              <in>constants.h</in>
+              <in>coord2d.cpp</in>
+              <in>coord2d.h</in>
+              <in>line2d.cpp</in>
+              <in>line2d.h</in>
+              <in>point2d.cpp</in>
+              <in>point2d.h</in>
+              <in>polygon2d.cpp</in>
+              <in>polygon2d.h</in>
+              <in>ray2d.h</in>
+              <in>rectangle2d.cpp</in>
+              <in>rectangle2d.h</in>
+              <in>segment2d.cpp</in>
+              <in>segment2d.h</in>
+              <in>shape2d.h</in>
+              <in>vector2d.cpp</in>
+              <in>vector2d.h</in>
+            </df>
+            <df name="sfml">
+              <df name="demo1">
+                <in>demo.cpp</in>
+                <in>demo.h</in>
+              </df>
+              <df name="demo2">
+                <in>demo.cpp</in>
+                <in>demo.h</in>
+              </df>
+              <df name="demo3">
+                <in>demo.cpp</in>
+                <in>demo.h</in>
+              </df>
+              <df name="demo4">
+                <in>demo.cpp</in>
+                <in>demo.h</in>
+              </df>
+              <in>application.cpp</in>
+              <in>application.h</in>
+              <in>color.cpp</in>
+              <in>color.h</in>
+              <in>fpscounter.cpp</in>
+              <in>fpscounter.h</in>
+            </df>
+          </df>
+          <in>main.cpp</in>
+        </df>
+      </df>
+      <df name="tests">
+        <df name="unitary">
+          <df name="catch">
+            <in>catch.hpp</in>
+          </df>
+          <in>test.cpp</in>
+          <in>test_algorithms.cpp</in>
+          <in>test_line2d.cpp</in>
+          <in>test_point2d.cpp</in>
+          <in>test_polygon2d.cpp</in>
+          <in>test_ray2d.cpp</in>
+          <in>test_rectangle2d.cpp</in>
+          <in>test_segment2d.cpp</in>
+          <in>test_vector2d.cpp</in>
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_signals>
+        </gdb_signals>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="unittest" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>make unittest</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>./build</rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="test" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>make unittest</runcommandpicklistitem>
+          <runcommandpicklistitem>make test</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>make test</runcommand>
+        <rundir>./build</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
